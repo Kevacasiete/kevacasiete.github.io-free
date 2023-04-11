@@ -68,6 +68,15 @@ hr.small {
   border-radius: 0.1875rem;
 }
 
+
+h1:not(.bold), h2:not(.bold), h3:not(.bold), h4:not(.bold), h5:not(.bold), h6:not(.bold) {
+  font-family: 'Arial', sans-serif;
+  font-weight: 100;
+}
+
+
+
+
 /* fix in-page anchors to not be behind fixed header */
 :target:before {
   content: "";
